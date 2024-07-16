@@ -1,15 +1,14 @@
 package co.edu.cue.ternario;
 
-public class MayorDeDos {
-    int a  , b ;
+public class MenorDeDos {
+    int a, b;
 
-    public MayorDeDos(int a, int b) {
+    public MenorDeDos(int a, int b) {
         this.a = a;
         this.b = b;
     }
 
     public int resultado() {
-        return (a > b) ? a : b;
+        return (a < b) ? a : b;
     }
-
 }
